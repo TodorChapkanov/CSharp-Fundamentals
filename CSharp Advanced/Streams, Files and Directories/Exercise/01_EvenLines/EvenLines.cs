@@ -8,6 +8,8 @@
     {
         private const string inputPath = @"../../../text.txt";
         private const string outputPath = @"../../../Output.txt";
+
+
         public static void Main()
         {
             var couner = 0;

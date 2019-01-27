@@ -7,6 +7,8 @@
     {
         private const string inputPath = @"../../../Text.txt";
         private const string outputPath = @"../../../Output.txt";
+
+
         public static void Main()
         {
             var count = 1;
