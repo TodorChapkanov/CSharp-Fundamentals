@@ -6,4 +6,16 @@
     <RootNamespace>_03_WordCount</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Update="ExpectedResult.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="text.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="words.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
