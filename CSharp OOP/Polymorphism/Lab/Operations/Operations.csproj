@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="runtime.tizen.4.0.0-armel.Microsoft.NETCore.App" Version="2.0.0" />
+  </ItemGroup>
+
 </Project>
