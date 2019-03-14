@@ -10,7 +10,7 @@
 
         public virtual string Draw()
         {
-            return string.Empty;
+            return "Drawing ";
         }
 
         internal void ValidateValue(double value)

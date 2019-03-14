@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="Microsoft.NETCore.Targets" Version="2.1.0" />
     <PackageReference Include="runtime.tizen.4.0.0-armel.Microsoft.NETCore.App" Version="2.0.0" />
   </ItemGroup>
 

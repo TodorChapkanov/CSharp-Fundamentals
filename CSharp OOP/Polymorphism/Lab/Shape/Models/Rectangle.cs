@@ -48,26 +48,7 @@
 
         public override string Draw()
         {
-            var builder = new StringBuilder();
-            this.DrawLine(this.Width, '*', '*', builder);
-            for (int i = 1; i <= this.Height - 1; i++)
-            {
-                this.DrawLine(this.Width, '*', ' ', builder);
-            }
-
-            this.DrawLine(this.Width, '*', '*', builder);
-
-            return builder.ToString();
-        }
-
-        private void DrawLine(double width, char end, char mid, StringBuilder builder)
-        {
-            builder.Append(end);
-            for (int i = 1; i < width - 1; i++)
-            {
-                builder.Append(mid);
-            }
-            builder.AppendLine(end.ToString());
+            return base.Draw() + this.GetType().Name;
         }
     }
 }
