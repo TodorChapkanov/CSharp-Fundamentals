@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FestivalManager", "FestivalManager.csproj", "{F983A04C-5427-44CE-BAA2-FC95062A4342}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FestivalManager.Tests", "FestivalManager.Tests\FestivalManager.Tests.csproj", "{B9E035B7-DDEE-4194-892A-355FAA90FF27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F983A04C-5427-44CE-BAA2-FC95062A4342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F983A04C-5427-44CE-BAA2-FC95062A4342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F983A04C-5427-44CE-BAA2-FC95062A4342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F983A04C-5427-44CE-BAA2-FC95062A4342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F983A04C-5427-44CE-BAA2-FC95062A4342}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{F983A04C-5427-44CE-BAA2-FC95062A4342}.Test|Any CPU.Build.0 = Test|Any CPU
+		{B9E035B7-DDEE-4194-892A-355FAA90FF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E035B7-DDEE-4194-892A-355FAA90FF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E035B7-DDEE-4194-892A-355FAA90FF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E035B7-DDEE-4194-892A-355FAA90FF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E035B7-DDEE-4194-892A-355FAA90FF27}.Test|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E035B7-DDEE-4194-892A-355FAA90FF27}.Test|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D24F9DC9-B9EB-467F-B026-BBD4B9D7D1CF}
+	EndGlobalSection
+EndGlobal
